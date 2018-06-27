@@ -1,27 +1,92 @@
 {
-  "name": "slack-user-presence-notifier",
-  "version": "1.0.2",
-  "description": "Display desktop notifications when a user goes online/offline in slack",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "slack-user-presence-notifier",
+        "scope": null,
+        "escapedName": "slack-user-presence-notifier",
+        "name": "slack-user-presence-notifier",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/tyee/source/slack"
+    ]
+  ],
+  "_from": "slack-user-presence-notifier@latest",
+  "_id": "slack-user-presence-notifier@1.0.2",
+  "_inCache": true,
+  "_location": "/slack-user-presence-notifier",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/slack-user-presence-notifier-1.0.2.tgz_1472164766338_0.2465241386089474"
   },
-  "author": "Anwar Ziani <anwaar.ziani@gmail.com>",
-  "license": "MIT",
+  "_npmUser": {
+    "name": "zianwar",
+    "email": "anwaar.ziani@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "slack-user-presence-notifier",
+    "scope": null,
+    "escapedName": "slack-user-presence-notifier",
+    "name": "slack-user-presence-notifier",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/slack-user-presence-notifier/-/slack-user-presence-notifier-1.0.2.tgz",
+  "_shasum": "4289cefc379250dfcff6851826115eaa958e80d5",
+  "_shrinkwrap": null,
+  "_spec": "slack-user-presence-notifier",
+  "_where": "/home/tyee/source/slack",
+  "author": {
+    "name": "Anwar Ziani",
+    "email": "anwaar.ziani@gmail.com"
+  },
   "bin": {
     "slack-user-presence-notifier": "index.js"
   },
+  "dependencies": {
+    "@slack/client": "^4.3.1",
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0",
+    "moment": "^2.14.1",
+    "node-notifier": "^4.6.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "description": "Display desktop notifications when a user goes online/offline in slack",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "4289cefc379250dfcff6851826115eaa958e80d5",
+    "tarball": "https://registry.npmjs.org/slack-user-presence-notifier/-/slack-user-presence-notifier-1.0.2.tgz"
+  },
+  "gitHead": "60415311cd04281f0c21ca8cdd5ceb2ee63160bc",
   "keywords": [
     "slack",
     "slack-presence",
     "slackbot",
     "notifications"
   ],
-  "dependencies": {
-    "@slack/client": "^3.5.4",
-    "chalk": "^1.1.3",
-    "minimist": "^1.2.0",
-    "moment": "^2.14.1",
-    "node-notifier": "^4.6.1"
-  }
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zianwar",
+      "email": "anwaar.ziani@gmail.com"
+    }
+  ],
+  "name": "slack-user-presence-notifier",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
 }
